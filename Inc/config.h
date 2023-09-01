@@ -177,7 +177,7 @@
 #define INACTIVITY_TIMEOUT        8       // Minutes of not driving until poweroff. it is not very precise.
 #define BEEPS_BACKWARD            0       // 0 or 1
 #define ADC_MARGIN                100     // ADC input margin applied on the raw ADC min and max to make sure the MIN and MAX values are reached even in the presence of noise
-#define ADC_PROTECT_TIMEOUT       1000     // ADC Protection: number of wrong / missing input commands before safety state is taken
+#define ADC_PROTECT_TIMEOUT       100     // ADC Protection: number of wrong / missing input commands before safety state is taken
 #define ADC_PROTECT_THRESH        200     // ADC Protection threshold below/above the MIN/MAX ADC values
 #define AUTO_CALIBRATION_ENA              // Enable/Disable input auto-calibration by holding power button pressed. Un-comment this if auto-calibration is not needed.
 
